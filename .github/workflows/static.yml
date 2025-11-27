@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز أبو سأم الشافعي - صيانة أجهزة Motorola DP4800e</title>
+    <style>
+        :root {
+            --primary: #0067b8;
+            --secondary: #ff6600;
+            --light: #f8f9fa;
+            --dark: #212529;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), #004a8f);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
+            display: inline-block;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .service-card {
+            background: var(--light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-right: 4px solid var(--secondary);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        
+        .contact-item {
+            flex: 1;
+            min-width: 250px;
+            background: var(--light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .contact-item i {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #0056a3;
+        }
+        
+        .btn-whatsapp {
+            background: #25D366;
+        }
+        
+        .btn-whatsapp:hover {
+            background: #1da851;
+        }
+        
+        .btn-facebook {
+            background: #3b5998;
+        }
+        
+        .btn-facebook:hover {
+            background: #2d4373;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-tools"></i>
+            </div>
+            <h1>مركز أبو سأم الشافعي</h1>
+            <p class="subtitle">متخصص في صيانة أجهزة Motorola DP4800e والأنظمة اللاسلكية</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section id="about">
+            <h2>🚀 عن المركز</h2>
+            <p>متخصص في صيانة الأجهزة اللاسلكية بخبرة طويلة وجودة عالية في محافظة مأرب. نحن الخيار الأول لصيانة أجهزة Motorola DP4800e وجميع الأجهزة اللاسلكية الأخرى.</p>
+        </section>
+        
+        <section id="services">
+            <h2>🛠️ الخدمات المتخصصة</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>صيانة وفحص أجهزة Motorola</h3>
+                    <p>صيانة وفحص أجهزة Motorola DP4800e وجميع أنواع الأجهزة اللاسلكية الأخرى.</p>
+                </div>
+                <div class="service-card">
+                    <h3>إصلاح الأجهزة اللاسلكية</h3>
+                    <p>إصلاح جميع أنواع الأجهزة اللاسلكية باحترافية عالية.</p>
+                </div>
+                <div class="service-card">
+                    <h3>استبدال دوائر الشحن</h3>
+                    <p>استبدال دوائر الشحن البطاريات بدوائر شحن 12 فولت.</p>
+                </div>
+                <div class="service-card">
+                    <h3>قطع الغيار والملحقات</h3>
+                    <p>توفير قطع غيار للأجهزة والملحقات الأخرى.</p>
+                </div>
+                <div class="service-card">
+                    <h3>إصلاح البطاريات وقواعد الشحن</h3>
+                    <p>إصلاح البطاريات وقواعد الشحن بأسعار منافسة.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="location">
+            <h2>📍 الموقع</h2>
+            <p>مدينة مأرب - اليمن</p>
+        </section>
+        
+        <section id="contact">
+            <h2>📞 التواصل</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <h3>فيسبوك</h3>
+                    <p>تابعنا على فيس بوك</p>
+                    <a href="https://facebook.com/2515123n" class="btn btn-facebook">زيارة الصفحة</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>واتساب</h3>
+                    <p>تواصل معنا عبر الواتساب</p>
+                    <p>774496095</p>
+                    <a href="https://wa.me/qr/72RNTMPJBMBAN1" class="btn btn-whatsapp">تواصل الآن</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2023 مركز أبو سأم الشافعي لصيانة أجهزة Motorola DP4800e</p>
+        </div>
+    </footer>
+</body>
+</html>
